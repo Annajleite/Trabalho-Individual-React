@@ -1,16 +1,14 @@
-# React + Vite
+# Emunah
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto criado para a aula de React com o tema livre. Fiz um mini app de mensagens para treinar o que aprendemos na disciplina.
 
-Currently, two official plugins are available:
+## Requisitos entregues
+- Arquivo `dados.jsx` criado com um array de 10 objetos.
+- Componente `MensagemCard` criado e recebendo as informações da lista por props.
+- Estilos feitos usando `styled-components` e separados em arquivos `style.jsx`.
+- Uso do `useState` no card para fazer o botão que mostra e esconde o textinho.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Como rodar o projeto
+1. Abra o projeto no terminal.
+2. Digite `npm install` para instalar as dependências.
+3. Digite `npm run dev` para rodar o app.
